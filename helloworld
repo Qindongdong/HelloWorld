@@ -1,0 +1,11 @@
+package main
+import "fmt"
+func main() {
+	var x int = 1
+	var p *int = &x
+	*p++
+	fmt.Printf("%d", *p)
+	//fmt.Printf("%d", *p++)
+}
+//var x = [5]int{1, 2}
+//p := &x[0]
